@@ -1,0 +1,141 @@
+.section{
+    height: 100vh;
+    background-image: url('./img/hill.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+header{
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    padding: 20px 70px;
+    justify-content: space-between;
+}
+
+.header_left img{
+    height: 20px;
+    width: auto;
+}
+
+li{
+    font-size: 20px;
+    float: left;
+    margin-left: 40px;
+}
+
+main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_title{
+    font-size: 120px;
+}
+
+.text{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+h2{
+    margin: 100px 20px;
+    font-size: 40px;
+}
+
+.text_about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img1{
+    height: 30%px;
+    width: 30%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.some_text{
+    font-size: 25px;
+}
+
+.sometext_text{
+    width: 70%;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textbox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.box{
+    padding: 30px;
+    border: solid black 1px;
+    margin: 0 15px;
+}
+
+.sub_title{
+    text-align: center;
+    font-size: 25px;
+}
+
+p{
+    padding-top: 10px;
+}
+
+.form_box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box_whole{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+.submit{
+    font-size: 20px;
+    color: white;
+    background-color: #223644;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 9%;
+}
+
+footer{
+    background-color: #223644;
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+
+.text_width{
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.textarea{
+    width: 500px;
+    height: 200px;
+}
